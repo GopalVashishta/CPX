@@ -1,4 +1,3 @@
-// C++ Competitive Programming Template
 #include <iostream>
 #include <vector>
 #include <set>
@@ -24,6 +23,18 @@
 #include <numeric>
 #include <iomanip>
 using namespace std;
+#define cinarr(a,x,y) for(int i=x;i<y;i++){cin>>a[i];}
+#define cinvec(v,n) for(int i=0;i<n;i++){int x; cin>>x; v.push_back(x);}
+#define cinset(s,n) for(int i=0;i<n;i++){int x; cin>>x; s.insert(x);}
+ 
+template<typename... T>
+void cins(T&... args) { ((cin >> args), ...);}
+template<typename... T>
+void couts(T&&... args) { ((cout << args << " "), ...);}
+template<typename... T>
+void coutnl(T&&... args) { ((cout << args << " "), ...); cout<<'\n';}
+template<typename... T>
+void coutn(T&&... args) { ((cout << args << '\n'), ...);}
  
 #define PI 3.14159265358979323846
  
@@ -41,12 +52,6 @@ using ull = unsigned long long;
 #endif
  
 template<typename T>
-T gcd(T a, T b) {
-    while (b) { T t = b; b = a % b; a = t; }
-    return a;
-}
- 
-template<typename T>
 T isqrt(T x) {
     T left = 0, right = x, ans = 0;
     while (left <= right) {
@@ -61,7 +66,7 @@ T isqrt(T x) {
     return ans;
 }
  
-ll modpow(ll a, ll b, ll m = 1000000007) {
+ll fastexp(ll a, ll b, ll m = 1000000007) {
     ll res = 1;
     a %= m;
     while (b) {
@@ -75,5 +80,6 @@ ll modpow(ll a, ll b, ll m = 1000000007) {
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+ 
     return 0;
 }
