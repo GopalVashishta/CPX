@@ -5,8 +5,10 @@
 cpalgorithms.com
 cses problem set
 competitive programming helpbook
-cp31 sheet
+cp31 sheet : https://www.tle-eliminators.com/cp-sheet
 algo monster
+NeetCode
+## USACO Resource: https://usaco.guide/general/resources-cp?lang=cpp
 ^ CPH Extension
 
 // src material
