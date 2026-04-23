@@ -22,6 +22,8 @@ https://neetcode.io/
 https://usaco.guide/
 
 
-
+//Prefix Sum
+https://codeforces.com/blog/entry/146389
+NeetCode
 
 //nrcx //// online-clipboard.online 4411, 8790
