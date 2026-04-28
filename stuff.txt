@@ -26,4 +26,85 @@ https://usaco.guide/
 https://codeforces.com/blog/entry/146389
 NeetCode
 
+// Array/Subarray/Subsqn
+Number of subarrays of an array of length n: n(n+1)/2
+
+Number of subarrays of length exactly l: n - l + 1
+
+Number of subarrays inside a segment of length l: l(l+1)/2
+
+Number of subsequences of an array of length n: 2^n
+
+Number of non-empty subsequences: 2^n - 1
+
+Number of ways to choose k elements from n: C(n, k) = n! / (k!(n-k)!)
+
+Number of ways to arrange k chosen from n: P(n, k) = n! / (n-k)!
+
+// SUM
+Sum of first n natural numbers 1 + 2 + ... + n: n(n+1)/2
+
+Sum of first n even numbers 2 + 4 + ... + 2n: n(n+1)
+
+Sum of first n odd numbers 1 + 3 + ... + (2n-1): n^2
+
+Sum of squares 1^2 + 2^2 + ... + n^2: n(n+1)(2n+1)/6
+
+Sum of cubes 1^3 + 2^3 + ... + n^3: [n(n+1)/2]^2
+
+// AP / GP
+AP sum S_n:  n/2 * (2a + (n-1)d)  OR  n/2 * (a + l)
+
+GP sum (r != 1) S_n: a(r^n - 1)/(r - 1)
+
+Infinite GP (|r| < 1) S: a/(1-r)
+
+// Modular arithmetic formulas
+Fermat inverse when m is prime and a % m != 0: a^-1 ≡ a^(m-2) mod m
+
+Binary exponentiation: a^b in O(log b)
+
+//Combinatorics
+nCr recursion C(n, r) = C(n-1, r-1) + C(n-1, r)
+
+Pascal identity C(n, r) = C(n-1, r) + C(n-1, r-1)
+
+Sum of all combinations from a set of size n: Σ C(n, k) = 2^n
+
+Number of subsets of size k: C(n, k)
+Circular permutations
+(n-1)!
+
+Number of ways to distribute identical items into distinct boxes
+C(n + k - 1, k - 1)If each box can be empty
+C(n - 1, k - 1)  If each box must get at least1
+
+// Bitwise
+Set bits count lower bound 2^k numbers need at least k bits.
+
+Check if x is power of 2: x > 0 and (x & (x - 1)) == 0
+
+Turn off lowest set bit: x & (x - 1)
+
+Extract lowest set bit: x & -x
+
+XOR of a range [l, r]: xor(1..r) ^ xor(1..l-1)
+
+// Number theory formulas
+GCD gcd(a, b) = gcd(b, a % b)
+
+LCM lcm(a, b) = (a / gcd(a, b)) * b
+
+For more than 2 numbers lcm(a, b, c) = lcm(lcm(a, b), c)
+If a * b = gcd(a, b) * lcm(a, b)
+
+// Geometry
+Midpoint ((x1+x2)/2, (y1+y2)/2)
+
+Slope (y2-y1)/(x2-x1)
+
+Area of triangle using coordinates: |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)| / 2
+
+Orientation / cross product: (b-a) x (c-a)
+
 //nrcx //// online-clipboard.online 4411, 8790
