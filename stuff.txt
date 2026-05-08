@@ -22,12 +22,17 @@ https://neetcode.io/
 https://usaco.guide/
 
 
-//Prefix Sum
+// Prefix Sum
 https://codeforces.com/blog/entry/146389
 NeetCode
 
+// Prefix Sum + HashMap
+https://leetcode.com/problems/continuous-subarray-sum/solutions/5276981/prefix-sum-hashmap-patterns-7-problems-b-6794/?envType=problem-list-v2&envId=hash-table
+
 // Array/Subarray/Subsqn
 Number of subarrays of an array of length n: n(n+1)/2
+
+Number of subarrays ending at r: r-l+1
 
 Number of subarrays of length exactly l: n - l + 1
 
