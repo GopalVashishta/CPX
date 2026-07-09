@@ -113,3 +113,15 @@ Area of triangle using coordinates: |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)| / 2
 Orientation / cross product: (b-a) x (c-a)
 
 //nrcx //// online-clipboard.online 4411, 8790
+
+// Binary Search / 2Ptr / Sliding Window: ITMO Course(CF)+Striver
+// Prefix Sum: CF Blog
+// Unordered_map + Prefix Sum: LC question(editorial)
+// Recursion + Greedy + Stack/Queue : Striver
+// DP: Striver+AtCoder+CSES
+// Bin + BST Trees: Striver
+// Graph: Striver+CSES
+// BitManip: TLE Priyanshu
+// LinkedList: LC+Striver(DSA/SDE)
+// Simulation: CP31 800 + LC
+// Sieve of Eratosthenes + GCD + FastExponentiation + Heaps/PQ (anywhere)
