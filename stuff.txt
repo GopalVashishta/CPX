@@ -29,6 +29,9 @@ NeetCode
 // Prefix Sum + HashMap
 https://leetcode.com/problems/continuous-subarray-sum/solutions/5276981/prefix-sum-hashmap-patterns-7-problems-b-6794/?envType=problem-list-v2&envId=hash-table
 
+// Graph
+https://codeforces.com/group/ibNhxWfOek/contests
+
 // Array/Subarray/Subsqn
 Number of subarrays of an array of length n: n(n+1)/2
 
@@ -120,7 +123,7 @@ Orientation / cross product: (b-a) x (c-a)
 // Recursion + Greedy + Stack/Queue : Striver
 // DP: Striver+AtCoder+CSES
 // Bin + BST Trees: Striver
-// Graph: Striver+CSES
+// Graph: Striver+CSES+CF
 // BitManip: TLE Priyanshu
 // LinkedList: LC+Striver(DSA/SDE)
 // Simulation: CP31 800 + LC
